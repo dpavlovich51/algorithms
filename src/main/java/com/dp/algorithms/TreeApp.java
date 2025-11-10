@@ -30,9 +30,9 @@ public class TreeApp {
     }
 
     public static class Node {
-        private Integer value;
-        private Node left;
-        private Node right;
+        private final Integer value;
+        private final Node left;
+        private final Node right;
 
         public Node(Integer value, Node left, Node right) {
             this.value = value;

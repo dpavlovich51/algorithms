@@ -1,8 +1,5 @@
 package com.dp.algorithms;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class BinarySearch704 {
 
     public static void main(String[] args) {

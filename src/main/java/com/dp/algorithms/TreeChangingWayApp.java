@@ -41,16 +41,15 @@ public class TreeChangingWayApp {
     private static void privatePrintTree(Node node, boolean flag) {
         if (flag) {
             printTree(node.getLeft(), false);
-        }
-        else {
+        } else {
             printTree(node.getRight(), true);
         }
     }
 
     public static class Node {
-        private Integer value;
-        private Node left;
-        private Node right;
+        private final Integer value;
+        private final Node left;
+        private final Node right;
 
         public Node(Integer value, Node left, Node right) {
             this.value = value;
